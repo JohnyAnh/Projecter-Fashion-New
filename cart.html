@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <LINk rel="stylesheet" href="style.css"></LINk>
+</head>
+<body>
+  
+    <header>
+        <div class="logo">   
+          <a href="menu.html"> <img src="uploads/1.png" alt=""></a> 
+        </div>
+
+        <div class="menu">
+          <li><a href="menu.html">HOME</a></li>
+          <li><a href="cartegory.html">SHOP</a></li>
+          <li><a href="">PAGES</a>
+            <ul class="sub-menu">
+                <li><a href="about.html">About Brand</a></li>
+                <li><a href="cart.html">Shopping Cart</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+            </ul>
+
+
+        </li>
+             
+          <li><a href="contacts.html">CONTACTS</a></li>
+        </div>
+
+        <div class="other">
+
+            <li><input placeholder="Search" type="text"><i class="fa-solid fa-magnifying-glass"></i></li>
+            <li><a href=""><i class="fa-solid fa-cart-shopping"></i></a></li>
+            <li><a href=""><i class="fa-solid fa-user"></i></a></li>
+        </div>
+      </header>
+
+
+
+                <!-- SHOPPING CART -->
+     <section class="breadcrumb-option">
+        <div class="container">
+            <div class="row">
+                 <div class="col-lg-12">
+             <div class="breadcrumb__text">
+                  <h4>Shopping Cart</h4>
+             <div class="breadcrumb__links">
+                   <a href="./index.html">Home ></i></a>
+                   <a href="./shop.html">Pages></i></a>
+                      <span>Shopping Cart</span>
+                 </div>
+               </div>
+             </div>
+          </div>
+         </div>
+       </section>
+
+     <section class="cart">
+       <div class="container">
+       <div class="cart-top-wrap">
+        <div class="cart-top">
+          <div class="cart-top-cart cart-top-item">
+           <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+
+
+          <div class="cart-top-cart  cart-top-item">
+           <i class="fa-solid fa-location-dot"></i>
+          </div>
+
+
+          <div class="cart-top-cart  cart-top-item">
+          <i class="fa-solid fa-money-check-dollar"></i>
+          </div>
+         </div>
+
+        </div>
+       </div>
+       <div class="container">
+         <div class="cart-content row">
+           <div class="cart-content-left">
+               <table>
+                 <tr>
+                   <TH> Sản phẩm </TH>
+                   <TH> Tên sản phẩm</TH>
+                   <TH> Màu </TH>
+                   <TH>Size </TH>
+                   <TH> SL </TH>
+                   <TH> Thành tiền </TH>
+                   <th>Xoá</th>
+                 </tr>
+                 <tr>
+                   <td><a href="produc.html"><img src="uploads/lv3.jpeg" alt=""></a></td>
+                 <td>Áo PhÔNG lV MS 57E5969</td>
+                 <td><img src="uploads/trang.png" alt=""></td>
+                 <td><p>L</p></td>
+                 <td><input type="number" value="1" min="1"></td>
+                 <td><p>$2.500</p></td>
+                 <td><span> X</span></td>
+                 </tr>
+
+                 <tr>
+                  <td><img src="uploads/q3.jpg" alt=""></td>
+                <td>Áo Sơ Mi MS 637068</td>
+                <td><img src="uploads/cam.jpg" alt=""></td>
+                <td><p>XL</p></td>
+                <td><input type="number" value="1" min="1"></td>
+                <td><p>$2.900</p></td>
+                <td><span> X</span></td>
+                </tr>
+
+                <tr>
+                  <td><img src="uploads/q4.jpg" alt=""></td>
+                <td>Áo Sơ Mi MS 691057</td>
+                <td><img src="uploads/black.jfif" alt=""></td>
+                <td><p>XL</p></td>
+                <td><input type="number" value="1" min="1"></td>
+                <td><p>$2.100</p></td>
+                <td><span> X</span></td>
+                </tr>
+               </table>
+           </div>
+
+
+
+
+            <div class="cart-content-right">
+               <table>
+                 <tr>
+                   <th colspan="2">TỔNG TIỀN GIỎ HÀNG</th>
+                 </tr>
+               <tr>
+                 <td>TỔNG SẢN PHẨM </td>
+                 <td>2</td>
+               </tr>
+               <tr>
+                 <td>TỔNG SẢN PHẨM </td>
+                  <td>2</td>
+               </tr>
+               <tr>
+                 <td> TỔNG TIỀN HÀNG</td>
+                 <td>$5.000</td>
+               </tr>
+               <tr>
+                 <td>TẠM TÍNH</td>
+                 <td><p style="color:white ; font-weight:bold">$5000</p></td>
+               </tr>
+               </table>
+                 <div class="cart-content-right-text">
+                 <p>Bạn sẽ được miễn phí ship khi đơn hàng của bạn có tổng giá trị trên $5.000</p>
+                 <p style="color:red ;font-weight:bold">Mua thêm <span style="font-size:18px;">20$</span> để được miễn phí Ship</p>
+
+               </div>
+
+               <div class="cart-content-right-button">
+                 <button>TIẾP TỤC MUA SẮM</button>
+                 <button>THANH TOÁN</button>
+               </div>
+              <div class="cart-content-right-dangnhap ">
+                <p>TÀI KHOẢN</p>
+                <P>Hãy <a href="" style="color: blue;">Đăng nhập</a>để tích điểm thành viên</P>
+              </div>
+           </div>
+
+         </div>
+       </div>
+
+     </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            <!-- FOOTER -->
+            <!-- FOOTER -->
+            <footer class="footer">
+              <div class="container">
+                <div class="row">
+                  <div class="footer-col">
+                    <h4>company</h4>
+                    <ul>
+                      <li><a href="#">About us</a></li>
+                      <li><a href="#">Our services</a></li>
+                      <li><a href="#">Privacy policy</a></li>
+                      <li><a href="#">Affiliate program</a></li>
+                    </ul>
+                  </div>
+                  <div class="footer-col">
+                    <h4>get help</h4>
+                    <ul>
+                      <li><a href="#">FAQ</a></li>
+                      <li><a href="#">Shopping</a></li>
+                      <li><a href="#">Returns</a></li>
+                      <li><a href="#">Payment options</a></li>
+                    </ul>
+                  </div>
+                  <div class="footer-col">
+                    <h4>online shop</h4>
+                    <ul>
+                      <li><a href="#">Watch</a></li>
+                      <li><a href="#">Bag</a></li>
+                      <li><a href="#">Shoes</a></li>
+                      <li><a href="#">Dress</a></li>
+                    </ul>
+                  </div>
+                  <div class="footer-col">
+                    <h4>Follow us</h4>
+                    <div class="social-links">
+                      <a href="#"><i class="fab fa-facebook-f"></i></a>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+           </footer>
+
+
+
+
+      </body>
+</html>
